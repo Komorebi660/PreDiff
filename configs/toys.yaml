@@ -1,0 +1,19 @@
+_defaults:
+  learning_steps: 200000
+  batch_size: 512
+  lr: 0.001
+  weight_decay: 0.0
+  eval_epochs: 10
+  log_interval: 100
+  patience: 10
+prediff:
+  hidden_dim: 32
+  num_encoder_layers: 2
+  num_attention_heads: 2
+  dropout_prob: 0.4
+  diffusion_steps: 32
+  noise_schedule: linear
+  decoder_layers: 4
+  dist_dropout: 0.8
+  corr_alpha: 0.8
+  corr_tau: 0.2

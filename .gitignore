@@ -1,0 +1,26 @@
+# Data & outputs
+logs/
+results/
+data/*.pickle
+data/*.json
+data/*.gz
+data/*.zip
+data/ml-*
+wandb/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
